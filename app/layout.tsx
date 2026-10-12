@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./brand.css";
 import "./media-partners.css";
+import "./portfolio-videos.css";
 
 export const metadata: Metadata = {
   title: "Satria Spektra Production | Event & Experience Production",
