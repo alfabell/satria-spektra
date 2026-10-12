@@ -7,7 +7,7 @@ const moments = [
 export function GallerySection() {
   return (
     <section className="section gallery-section" id="gallery">
-      <div className="page-width"><div className="gallery-heading"><div><div className="section-kicker"><span>04 / MOMEN YANG KAMI CIPTAKAN</span><i /></div><h2>Setiap acara,<br /><em>sebuah cerita.</em></h2></div><p className="body-copy">Beberapa inspirasi untuk membayangkan kemungkinan acara Anda. <span>Ganti dengan dokumentasi proyek asli.</span></p></div>
+      <div className="page-width"><div className="gallery-heading"><div><div className="section-kicker"><span>04 / MOMEN YANG KAMI CIPTAKAN</span><i /></div><h2>Setiap acara,<br /><em>sebuah cerita.</em></h2></div><p className="body-copy">Beberapa inspirasi untuk membayangkan kemungkinan acara Anda.</p></div>
         <div className="moments-grid">{moments.map((moment, index) => <article key={moment.title} className={`moment-card ${moment.className}`} style={{ backgroundImage: `linear-gradient(0deg, rgba(8,9,10,.78), transparent 65%), url("${moment.image}")` }}><span className="moment-card__index">0{index + 1} — {moment.tag}</span><div><h3>{moment.title}</h3><span className="moment-card__arrow">↗</span></div></article>)}</div>
       </div>
     </section>

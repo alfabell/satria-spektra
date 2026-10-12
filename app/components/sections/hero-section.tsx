@@ -17,9 +17,7 @@ export function HeroSection() {
           <div className="hero__photo" />
           <div className="hero__visual-shade" />
           <div className="hero__frame" />
-          <div className="hero__vertical-label">CREATING THE SPECTACULAR <span>— EST. 20XX</span></div>
           <div className="hero__caption"><span className="caption-dot" /> BUILT AROUND YOUR MOMENT <span className="caption-rule" /></div>
-          <div className="hero__number">01 <span>/ 04</span></div>
         </div>
       </div>
       <div className="hero__bottom page-width"><span>SURABAYA · INDONESIA</span><span>EVENT DESIGN & PRODUCTION</span><a href="#about" aria-label="Gulir ke bagian tentang">SCROLL TO EXPLORE <b>↓</b></a></div>
