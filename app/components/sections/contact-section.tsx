@@ -37,9 +37,11 @@ export function ContactSection() {
         </div>
 
         <div className="contact-meta">
-          <span>EMAIL<br /><b>hello@satriaspektra.com</b></span>
+          <span>EMAIL<br /><b>satriaspektra.production@gmail.com</b></span>
           <span>WHATSAPP<br /><b>+62 853 5373 6886</b></span>
-          <span>BASE<br /><b>Surabaya, Indonesia</b></span>
+          <span>INSTAGRAM<br /><b>satriaspektra.production</b></span>
+          <span>TIKTOK<br /><b>satriaspektra.production</b></span>
+          <span>LOKASI<br /><b>Surabaya, Indonesia</b></span>
         </div>
 
         <div className="media-partners" aria-labelledby="media-partners-title">
