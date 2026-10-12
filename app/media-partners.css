@@ -62,7 +62,8 @@
   height: 106px;
 }
 
-.partner-logo--sb {
+.partner-logo--sb,
+.partner-logo--kuda-emas {
   width: 108px;
   height: 108px;
 }
@@ -98,7 +99,8 @@
     height: 84px;
   }
 
-  .partner-logo--sb {
+  .partner-logo--sb,
+  .partner-logo--kuda-emas {
     width: 82px;
     height: 82px;
   }

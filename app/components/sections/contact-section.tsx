@@ -17,6 +17,14 @@ const mediaPartners = [
     height: 1254,
     className: "partner-logo--sb",
   },
+  {
+    name: "Kuda Emas Indonesia Berlian",
+    shortName: "Kuda Emas Indonesia",
+    src: "/media-partner-kuda-emas.png",
+    width: 1280,
+    height: 1280,
+    className: "partner-logo--kuda-emas",
+  },
 ];
 
 export function ContactSection() {
