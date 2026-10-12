@@ -1,0 +1,90 @@
+.site-header .brand-mark-layout,
+.footer-inner .brand-mark-layout {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  width: max-content;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.brand-mark-image {
+  display: block;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.brand-mark-layout--compact .brand-mark-image {
+  flex-basis: 46px;
+  width: 46px;
+  height: 46px;
+}
+
+.brand-mark-name {
+  display: block;
+  flex: none;
+  color: #f3f0e9;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 1.15;
+  letter-spacing: .08em;
+  white-space: nowrap;
+}
+
+.brand-mark-name b {
+  color: #f0d59d;
+  font-weight: 500;
+}
+
+.brand-mark-name small {
+  display: block;
+  margin-top: 3px;
+  color: #d4ad67;
+  font: 8px Arial, Helvetica, sans-serif;
+  letter-spacing: .48em;
+  text-align: center;
+}
+
+.footer-inner .brand-mark-layout {
+  gap: 8px;
+  transform: none;
+}
+
+@media (max-width: 640px) {
+  .site-header .brand-mark-layout {
+    gap: 8px;
+    max-width: calc(100vw - 155px);
+  }
+
+  .site-header .brand-mark-image {
+    flex-basis: 42px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .site-header .brand-mark-layout--compact .brand-mark-image {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .site-header .brand-mark-name {
+    font-size: 10px;
+  }
+
+  .site-header .brand-mark-name small {
+    font-size: 7px;
+  }
+
+  .footer-inner .brand-mark-image {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+  }
+}

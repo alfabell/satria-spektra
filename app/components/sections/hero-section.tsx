@@ -11,7 +11,7 @@ export function HeroSection() {
             <a className="button" href="#contact">Ceritakan rencanamu <span aria-hidden="true">↗</span></a>
             <a className="text-link" href="#about">Kenali Satria Spektra <span aria-hidden="true">↓</span></a>
           </div>
-          <div className="hero__signature"><span className="signature-mark">S<span>S</span></span><span>YOUR VISION.<br /><b>OUR PRODUCTION.</b></span></div>
+          
         </div>
         <div className="hero__visual" aria-label="Panggung acara dengan pencahayaan dramatis">
           <div className="hero__photo" />
@@ -22,7 +22,7 @@ export function HeroSection() {
           <div className="hero__number">01 <span>/ 04</span></div>
         </div>
       </div>
-      <div className="hero__bottom page-width"><span>JAKARTA · INDONESIA</span><span>EVENT DESIGN & PRODUCTION</span><a href="#about" aria-label="Gulir ke bagian tentang">SCROLL TO EXPLORE <b>↓</b></a></div>
+      <div className="hero__bottom page-width"><span>SURABAYA · INDONESIA</span><span>EVENT DESIGN & PRODUCTION</span><a href="#about" aria-label="Gulir ke bagian tentang">SCROLL TO EXPLORE <b>↓</b></a></div>
     </section>
   );
 }
